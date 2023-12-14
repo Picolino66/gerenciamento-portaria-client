@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ConsumoApiService {
-  private apiUrl = 'http://localhost:4000'; // substitua pela sua URL da API
+  private apiUrl = 'https://portaria-api-lime.vercel.app'; // substitua pela sua URL da API
 
   constructor(private http: HttpClient) { }
 

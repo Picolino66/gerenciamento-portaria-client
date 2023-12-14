@@ -5,7 +5,7 @@ import { CadastrarUsuarioComponent } from './cadastrar-usuario/cadastrar-usuario
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
-  { path: 'home', component: HomeComponent},
+  { path: 'home', component: CadastrarUsuarioComponent},
   { path: 'cadastrar', component: CadastrarUsuarioComponent}
 ];
 
